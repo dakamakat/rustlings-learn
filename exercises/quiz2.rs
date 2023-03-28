@@ -42,8 +42,7 @@ mod my_module {
     }
 
     fn append(str: &String, num: usize) -> String {
-         format!("{str}{0}","bar".repeat(num).as_str()).to_string()
-        
+        format!("{str}{0}", "bar".repeat(num).as_str()).to_string()
     }
 }
 
